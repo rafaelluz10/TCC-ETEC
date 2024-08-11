@@ -9,15 +9,14 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="ETEC Irmã Agostina"
-       android:textColor="@color/white"
-       android:textAlignment="center"
-       android:layout_marginTop="50dp"
-       android:textSize="20sp"
-       > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="ETEC Irmã Agostina"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"> </TextView>
 
     <ImageView
         android:layout_width="140dp"
@@ -27,38 +26,64 @@
         android:src="@drawable/etecialogo"> </ImageView>
 
     <TextView
-        android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_person"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="75dp"
-        android:layout_marginRight="50dp"> </TextView>
+        android:layout_marginRight="50dp"
+        android:background="#f0f0f0"
+        android:drawableStart="@drawable/baseline_person"> </TextView>
 
     <TextView
-        android:drawableStart="@drawable/baseline_lock"
-        android:background="#f0f0f0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
-        android:layout_marginRight="50dp"> </TextView>
+        android:layout_marginRight="50dp"
+        android:background="#f0f0f0"
+        android:drawableStart="@drawable/baseline_lock"> </TextView>
 
     <TextView
-        android:background="#f0f0f0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
-        android:layout_marginRight="50dp"> </TextView>
+        android:layout_marginRight="50dp"
+        android:background="#f0f0f0"
+        android:drawableStart="@drawable/baseline_email"> </TextView>
 
     <TextView
-        android:background="#f0f0f0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
-        android:layout_marginRight="50dp"> </TextView>
+        android:layout_marginRight="50dp"
+        android:background="#f0f0f0"
+        android:drawableStart="@drawable/baseline_local_phone"> </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:text="ENTRAR"> </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:text="SAIR"> </Button>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Não conseguiu efetuar seu login? Clique aqui!"
+        android:textAlignment="center"
+        android:textColor="@color/white"> </TextView>
 
 
 </LinearLayout>
