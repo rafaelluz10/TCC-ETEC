@@ -25,41 +25,45 @@
         android:layout_marginTop="20dp"
         android:src="@drawable/etecialogo"> </ImageView>
 
-    <TextView
+    <EditText
+        android:text="Digite seu RM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="75dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_person"> </TextView>
+        android:drawableStart="@drawable/baseline_person"> </EditText>
 
-    <TextView
+    <EditText
+        android:text="Digite sua Senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_lock"> </TextView>
+        android:drawableStart="@drawable/baseline_lock"> </EditText>
 
-    <TextView
+    <EditText
+        android:text="Digite seu e-mail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_email"> </TextView>
+        android:drawableStart="@drawable/baseline_email"> </EditText>
 
-    <TextView
+    <EditText
+        android:text="Digite seu telefone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_local_phone"> </TextView>
+        android:drawableStart="@drawable/baseline_local_phone"> </EditText>
 
     <Button
         android:layout_width="match_parent"
