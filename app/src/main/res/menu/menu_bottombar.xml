@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mPerfil"
+        android:icon="@drawable/baseline_person"
+        android:title="Perfil" />
+
+    <item
+        android:id="@+id/mFoto"
+        android:icon="@drawable/baseline_photo_camera"
+        android:title="Foto" />
+
+    <item
+        android:id="@+id/mNotas"
+        android:icon="@drawable/baseline_library_books"
+        android:title="Notas" />
+    <item
+        android:id="@+id/mMensagens"
+        android:icon="@drawable/baseline_message"
+        android:title="Mensagens" />
+    <item
+        android:id="@+id/mFaltas"
+        android:icon="@drawable/baseline_addchart"
+        android:title="Faltas" />
+</menu>

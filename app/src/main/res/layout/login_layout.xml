@@ -12,79 +12,70 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:text="ETEC Irmã Agostina"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20sp"> </TextView>
 
     <ImageView
-        android:layout_width="140dp"
-        android:layout_height="144dp"
+        android:layout_width="239dp"
+        android:layout_height="202dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:src="@drawable/etecialogo"> </ImageView>
 
     <EditText
-        android:text="Digite seu RM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="70dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_person"> </EditText>
+        android:drawableStart="@drawable/baseline_person"
+        android:hint="Digite seu RM:"
+        android:inputType="number"> </EditText>
 
     <EditText
-        android:text="Digite sua Senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_lock"> </EditText>
+        android:drawableStart="@drawable/baseline_lock"
+        android:hint="Digite sua Senha:"
+        android:inputType="textPassword"> </EditText>
 
-    <EditText
-        android:text="Digite seu e-mail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginRight="50dp"
-        android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_email"> </EditText>
-
-    <EditText
-        android:text="Digite seu telefone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginRight="50dp"
-        android:background="#f0f0f0"
-        android:drawableStart="@drawable/baseline_local_phone"> </EditText>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="40dp"
         android:text="ENTRAR"> </Button>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="40dp"
-        android:text="SAIR"> </Button>
+        android:layout_marginRight="100dp"
+        android:text="NOVA SENHA"> </Button>
 
-    <TextView
-        android:layout_marginTop="10dp"
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:text="PRIVACIDADE"> </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:text="Não conseguiu efetuar seu login? Clique aqui!"
         android:textAlignment="center"
         android:textColor="@color/white"> </TextView>
