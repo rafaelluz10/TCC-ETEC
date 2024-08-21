@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1B1B1B"
+    android:background="#000"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -23,7 +23,7 @@
         android:layout_height="202dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:src="@drawable/etecialogo"> </ImageView>
+        android:src="@drawable/logo"> </ImageView>
 
     <EditText
         android:layout_width="match_parent"
