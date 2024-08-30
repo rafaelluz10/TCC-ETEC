@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -12,13 +12,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="ETEC Irmã Agostina"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20sp"> </TextView>
 
     <ImageView
+        android:layout_marginStart="80sp"
         android:layout_width="239dp"
         android:layout_height="202dp"
         android:layout_gravity="center_horizontal"
@@ -29,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="300dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
         android:drawableStart="@drawable/baseline_person"
@@ -40,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="350dp"
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
         android:drawableStart="@drawable/baseline_lock"
@@ -52,33 +53,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="400dp"
         android:layout_marginRight="40dp"
         android:text="ENTRAR"> </Button>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="200dp"
         android:text="NOVA SENHA"> </Button>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="100dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="40dp"
         android:text="PRIVACIDADE"> </Button>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="630dp"
         android:text="Não conseguiu efetuar seu login? Clique aqui!"
         android:textAlignment="center"
         android:textColor="@color/white"> </TextView>
 
 
-</LinearLayout>
+</RelativeLayout>
