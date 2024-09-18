@@ -35,6 +35,7 @@
         android:background="#f0f0f0"
         android:drawableStart="@drawable/baseline_person"
         android:hint="Digite seu RM:"
+        android:id="@+id/txtRM"
         android:inputType="number"> </EditText>
 
     <EditText
@@ -45,6 +46,7 @@
         android:layout_marginRight="50dp"
         android:background="#f0f0f0"
         android:drawableStart="@drawable/baseline_lock"
+        android:id="@+id/txtSenha"
         android:hint="Digite sua Senha:"
         android:inputType="textPassword"> </EditText>
 
@@ -55,6 +57,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="400dp"
         android:layout_marginRight="40dp"
+        android:id="@+id/btnEntrar"
         android:text="ENTRAR"> </Button>
 
     <Button
@@ -63,6 +66,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="450dp"
         android:layout_marginRight="200dp"
+        android:id="@+id/btnNovaSenha"
         android:text="NOVA SENHA"> </Button>
 
     <Button
@@ -71,6 +75,7 @@
         android:layout_marginLeft="220dp"
         android:layout_marginTop="450dp"
         android:layout_marginRight="40dp"
+        android:id="@+id/btnPrivacidade"
         android:text="PRIVACIDADE"> </Button>
 
     <TextView
@@ -78,6 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="630dp"
         android:text="Não conseguiu efetuar seu login? Clique aqui!"
+        android:id="@+id/txtNoAcess"
         android:textAlignment="center"
         android:textColor="@color/white"> </TextView>
 
