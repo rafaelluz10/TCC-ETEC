@@ -13,6 +13,18 @@
         android:theme="@style/Theme.TCCETEC"
         tools:targetApi="31">
         <activity
+            android:name=".FaltasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MensagensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FotoActivity"
+            android:exported="false" />
+        <activity
             android:name=".InicioActivity"
             android:exported="false" />
         <activity
@@ -23,19 +35,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-
         <activity
             android:name=".SplashActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
