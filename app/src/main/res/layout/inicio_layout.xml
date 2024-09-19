@@ -26,6 +26,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:text="RM: 23838"
+        android:id="@+id/txtRM"
         android:textAlignment="center"
         android:textColor="@color/white" />
 
@@ -35,6 +36,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
+        android:id="@+id/txtNome"
         android:text="Nome: Rafael Luz Tavares Pereira"
         android:textAlignment="center"
         android:textColor="@color/white" />
@@ -46,6 +48,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:text="Etec Irmã Agostina - Jardim Satélite"
+        android:id="@+id/txtEscola"
         android:textAlignment="center"
         android:textColor="@color/white" />
 
@@ -55,6 +58,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
+        android:id="@+id/txtCurso"
         android:text="Curso: Análise e Desenvolvimento de Sistemas"
         android:textAlignment="center"
         android:textColor="@color/white" />
